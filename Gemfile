@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
-ruby "2.1.3"
-
+#ruby '2.1.3'
 gem 'rails', '4.1.7'
 gem 'sass-rails', '~> 4.0.3'
 gem 'uglifier', '>= 1.3.0'
@@ -13,6 +12,8 @@ gem 'spring',        group: :development
 gem 'bootstrap-sass', '>= 3.2'
 gem 'autoprefixer-rails'
 gem 'paperclip', '~> 4.2.1'
+gem 'paperclip-dropbox', '>= 1.1.7'
+gem 'figaro', '0.7.0'
 
 group :production do
   gem 'pg'
