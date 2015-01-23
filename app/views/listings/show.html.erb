@@ -17,4 +17,4 @@
   <%= link_to 'Edit', edit_listing_path(@listing), class: "btn btn-link" %> |
 <% end %>
 <%= link_to 'List', listings_path, class: "btn btn-link" %> | 
-<%= link_to 'New Listing', new_listing_path, class: "btn btn-link"%>
+<%= link_to 'New Listing', new_listing_path, class: "btn btn-link", data: { no_turbolink: true } %>
